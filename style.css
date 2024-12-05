@@ -1,0 +1,66 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(145, 128, 128);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #fcfcfb; /* Make text white for better visibility on dark background */
+}
+
+/* Header Styles */
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(223, 186, 186, 0.7); /* Semi-transparent background */
+    padding: 10px 20px;
+}
+
+h1 {
+    color: #c389f9; /* Title color */
+}
+
+.logo-container {
+    margin-bottom: 10px;
+}
+
+.logo {
+    max-width: 100px;
+    height: auto;
+}
+
+/* Navigation Button Styles */
+.button-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.nav-button, .project-button {
+    background-color: #d2e7e7;
+    color: rgb(220, 144, 144);
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.nav-button:hover, .project-button:hover {
+    background-color: #97b8bc;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    background: rgba(238, 215, 205, 0.7); /* Semi-transparent background */
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Main Content Styles */
+main {
+    padding-top: 20px; /* Add some padding to avoid overlap with the fixed footer */
+}
