@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Character encoding for the document -->
+    <meta charset="UTF-8">
+    <!-- Viewport settings for responsiveness -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Title of the page -->
+    <title>Pokemon Viewer</title>
+
+    <!-- External CSS for styling the page -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Bootstrap framework for UI components -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+
+<body>
+
+    <!-- Main container for the Pokemon Viewer -->
+    <div class="container">
+        
+        <!-- Title for the Pokemon Viewer -->
+        <h1 class="text-center my-4">Pokemon Viewer</h1>
+        
+        <!-- Display the list of Pokemon -->
+        <div id="pokemon-list" class="row"></div>
+
+        <!-- Button to load more Pokemon -->
+        <div class="text-center my-4">
+            <button id="load-more" class="btn btn-primary">Load More</button>
+        </div>
+
+        <!-- Title for the section showing caught Pokemon -->
+        <h2 class="text-center my-4">Caught Pokemon</h2>
+
+        <!-- Display the list of caught Pokemon -->
+        <div id="caught-pokemon-list" class="row"></div>
+    </div>
+
+    <!-- External JavaScript file -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
